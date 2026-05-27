@@ -64,6 +64,10 @@ The implementation focuses on building a research-oriented predictive pipeline c
 
 The project demonstrates how machine learning techniques can be integrated with financial market analysis to support intelligent forecasting and data-driven decision making in stock market applications.
 
+Frontend/UI components, deployment configurations, and complete production-level application architecture are not included in this repository, as the primary objective of the project was focused on predictive modeling and analytical implementation.
+
+Users interested in building a complete application may integrate the prediction system with their own frontend or backend frameworks.
+
 ---
 
 ## 📂 Dataset Information
