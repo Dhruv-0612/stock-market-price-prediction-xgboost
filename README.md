@@ -1,5 +1,4 @@
 
-````md
 # 📈 Stock Market Prediction using XGBoost and Technical Indicators
 
 > Machine learning-based stock market forecasting system using technical analysis indicators and XGBoost regression.
@@ -46,7 +45,6 @@ Web Framework:
 
 ---
 
-```md
 ## 🧠 Project Overview
 
 Stock market prediction is one of the most complex challenges in financial analytics due to the highly dynamic, volatile, and non-linear nature of market behavior. Traditional statistical forecasting methods often struggle to adapt to sudden price fluctuations, changing trends, and evolving market conditions.
@@ -65,7 +63,6 @@ to identify hidden market patterns and forecast future stock price movements.
 The implementation focuses on building a research-oriented predictive pipeline capable of preprocessing financial data, generating technical indicators, training regression models, and evaluating prediction performance using standard machine learning evaluation metrics.
 
 The project demonstrates how machine learning techniques can be integrated with financial market analysis to support intelligent forecasting and data-driven decision making in stock market applications.
-```
 
 ---
 
@@ -324,4 +321,4 @@ Gujarat Technological University
 - Flask Documentation
 - GitHub
 - NeuralNine
-````
+
