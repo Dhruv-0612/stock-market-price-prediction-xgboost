@@ -252,6 +252,7 @@ Run the prediction script:
 ```bash
 python prediction.py
 ```
+> ⚠️ Note: The historical date range inside `prediction.py` may need to be updated periodically depending on current market data availability and prediction requirements.
 
 Enter the stock symbol when prompted.
 
@@ -259,6 +260,9 @@ Example:
 
 ```text
 AAPL
+TSLA
+MSFT
+GOOGL
 ```
 
 The model will generate predicted:
