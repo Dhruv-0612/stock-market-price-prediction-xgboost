@@ -284,7 +284,7 @@ stock-market-price-prediction-xgboost/
 The complete project thesis and implementation documentation are included in:
 
 ```text
-thesis-report.pdf
+STOCK MARKET PREDICTION Thesis.pdf
 ```
 
 The report contains:
