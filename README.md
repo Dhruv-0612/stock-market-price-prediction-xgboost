@@ -39,12 +39,6 @@ Backend & Machine Learning:
 - TA (Technical Analysis) Library
 - yFinance
 
-Web Framework:
-
-- Flask
-
----
-
 ## 🧠 Project Overview
 
 Stock market prediction is one of the most complex challenges in financial analytics due to the highly dynamic, volatile, and non-linear nature of market behavior. Traditional statistical forecasting methods often struggle to adapt to sudden price fluctuations, changing trends, and evolving market conditions.
@@ -252,7 +246,7 @@ Run the prediction script:
 ```bash
 python prediction.py
 ```
-> ⚠️ Note: The historical date range inside `prediction.py` may need to be updated periodically depending on current market data availability and prediction requirements.
+> ⚠️ Note: The historical date range inside `prediction.py` may need to be updated periodically depending on current market data availability and prediction requirements. This repository contains the XGBoost prediction pipeline as Python functions. The predict_stock_price(symbol) function performs data preparation, model training, evaluation, and prediction. A standalone command-line interface is not currently included. The historical date range is fixed in the source code.
 
 Enter the stock symbol when prompted.
 
