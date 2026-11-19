@@ -283,10 +283,10 @@ The model will generate predicted:
 ```text
 stock-market-price-prediction-xgboost/
 │
-├── prediction.py
+├── prediction.py.py
 ├── README.md
 ├── requirements.txt
-└── thesis-report.pdf
+└── STOCK MARKET PREDICTION Thesis.pdf
 ```
 
 ---
