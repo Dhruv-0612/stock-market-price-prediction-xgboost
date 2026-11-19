@@ -241,14 +241,23 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Run the prediction script:
+This repository contains a Python-based stock market prediction pipeline using XGBoost and technical indicators.
 
-```bash
-python prediction.py
-```
-> ⚠️ Note: The historical date range inside `prediction.py` may need to be updated periodically depending on current market data availability and prediction requirements. This repository contains the XGBoost prediction pipeline as Python functions. The predict_stock_price(symbol) function performs data preparation, model training, evaluation, and prediction. A standalone command-line interface is not currently included. The historical date range is fixed in the source code.
+The main implementation is available in `prediction.py.py`.
 
-Enter the stock symbol when prompted.
+### Prediction Pipeline
+
+The `predict_stock_price(symbol)` function performs:
+
+1. Historical stock data collection
+2. Technical indicator calculation
+3. Feature engineering and preprocessing
+4. XGBoost model training
+5. Model evaluation using MAPE
+6. Stock price prediction
+
+
+### Supported Stock Symbols
 
 Example:
 
@@ -258,13 +267,14 @@ TSLA
 MSFT
 GOOGL
 ```
-
 The model will generate predicted:
 
 - Opening Price
 - Closing Price
 - High Price
 - Low Price
+
+> **Note:** This repository currently provides the prediction pipeline as Python functions. A standalone command-line interface is not included. The historical date range is fixed in the source code and may require updating for newer market data.
 
 ---
 
